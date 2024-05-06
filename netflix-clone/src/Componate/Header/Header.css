@@ -1,0 +1,56 @@
+
+/* Header Style */
+.header-outer {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(20,20,20) !important;
+    background-color: transparent;
+    height: 10vh;
+    color: white;
+    transition: all 0.5s;
+    transition-timing-function:ease-in;
+    z-index: 1;
+
+    
+  }
+  .header-container ul li  {
+    background-color: rgba(20,20,20) !important;
+    color:beige;
+  }
+  .header-container  {
+    width:90%;
+    display: flex;
+    color: #fff;
+    background-color: rgba(20,20,20) !important;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-left ul li img {
+    margin-top: -15px;
+   
+  }
+  .header-left ul {
+    width: 140%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    list-style-type: none;
+  }
+  .header-right{ background-color: rgba(20,20,20) !important;}
+  .header-right ul {
+    
+    width: 140%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    list-style-type: none;
+  }
+  /* .header-left {
+    text-align: left !important;
+    padding: 4px 0;
+    border-bottom: 1px solid #4b4b4b;
+  } */
+  
