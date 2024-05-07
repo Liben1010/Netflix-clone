@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import'../../bootstrap.css'
-import netflixlogo from'../../Componate/asset/images/Netflix-Logo.jpg'
+import netflixlogo from'../../Componate/asset/images/neflixlogo2.png'
 import SearchIcon from '@mui/icons-material/Search';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';

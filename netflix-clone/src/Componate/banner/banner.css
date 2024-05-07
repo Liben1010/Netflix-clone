@@ -1,0 +1,27 @@
+.banner{
+    height: 70vh;
+}
+.banner_contents {
+    width: 40vw;
+    
+}
+.banner_description{
+    padding-left: 25px;
+    font-size: x-large;
+}
+.banner-con {
+    font-size: xx-large;
+    padding-top: 15vw;
+    padding-left: 25px;   
+}
+.button_play{
+    padding:0 25px; 
+    border:none;
+}
+.button
+{
+    background-color:initial;
+margin-left: 40px;
+  padding:0 15px; 
+  border-color: unset; 
+}
