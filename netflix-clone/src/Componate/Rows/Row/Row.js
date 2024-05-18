@@ -50,7 +50,7 @@ const handleClick=(movie)=>{
 }
 const opts={
 height:"400",
-width:"100%",
+width:"1200vh",
 playersVars:{autoplay:1,},
 
 }
