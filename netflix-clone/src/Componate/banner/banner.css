@@ -1,5 +1,12 @@
-.banner{
-    height: 70vh;
+.banner{margin-top: 0vh;
+    height: 80vh;
+    margin-bottom:0px ;
+    color: white;
+    object-fit: contain;
+}
+.banner-fadebutton{
+ height: 28.75vh;
+    background-image: linear-gradient(180deg,transparent,rgb(37,37,37,0.91),#111);
 }
 .banner_contents {
     width: 40vw;
@@ -7,7 +14,7 @@
 }
 .banner_description{
     padding-left: 25px;
-    font-size: x-large;
+    font-size: large;
 }
 .banner-con {
     font-size: xx-large;
@@ -15,13 +22,27 @@
     padding-left: 25px;   
 }
 .button_play{
-    padding:0 25px; 
-    border:none;
+    color: #000;
+    background-color: #fff;
+    padding: 0.2rem 3rem;
+    margin-right: 2rem;
 }
 .button
 {
-    background-color:initial;
-margin-left: 40px;
-  padding:0 15px; 
-  border-color: unset; 
+   
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding: 1rem 3rem ;
+  margin-right: 2rem;
+  background-color: rgba(51,51,51,0.5);
+
+}
+.button:hover{
+    color: #000;
+    border-color: #c6c6c6;
+    transition: a110.25s;
 }
